@@ -28,7 +28,9 @@ jpnevulator --ascii --timing-print --tty /dev/ttyACM0 --read > file_you_want_to_
 ```
 
 7. you can then read you data collected in "file_you_want_to_save_into.txt" by
-```nano file_you_want_to_save_into.txt```
+```
+nano file_you_want_to_save_into.txt
+```
 
 ## Trouble Shooting
 * If the Pi doesn't find the "jpnevulator" command, install it from internet by doing and try again:
